@@ -1,0 +1,28 @@
+.profile-item-container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.profile-item {
+    padding: 10px 0px;
+}
+
+.profile h3 {
+    color: #FFB9FA;
+}
+
+.profile h5 {
+    padding-bottom: 5px;
+}
+
+.profile-item-grid {
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 150px;
+    margin-right: 20px;
+}
+
