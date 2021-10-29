@@ -1,42 +1,46 @@
 .header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px auto;
+  
 }
 
-.nav-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+ul {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: ;
 }
 
+
+.nav-container {
+  padding: 0px;
+  margin-bottom: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-icon {
-  height: 30px;
-  width: 30px;
+  height: 2rem;
+  width: 2rem;
   padding: 6px;
-  background-color: #cccacc;
-  margin: 0px 15px;
+  background-color: rgba(196, 210, 255, 0.822);
+  margin: 0px 10px;
   border-radius: 50%;
   transition: all ease 0.3s;
   cursor: pointer;
-  filter: invert();
+  
 }
 
 .navbar-icon:hover {
-  background-color: rgb(95, 95, 95);
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-    rgba(253, 253, 253, 0.8) -1px -2px 16px 0px;
+  background-color: rgb(222, 255, 38);
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(253, 253, 253, 0.8) -1px -2px 16px 0px; */
   border-radius: 20%;
-  transform: scale(1.1);
-}
-
-.mail-icon {
-  background-color: rgb(75, 75, 75);
+  /* transform: scale(1.1); */
 }
 
 ul {
@@ -77,11 +81,11 @@ ul {
 
 .header__profile-icon img {
   margin-top: 30px;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   background-color: #fff;
   border-radius: 50%;
+  border: solid 2px #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }

@@ -11,8 +11,9 @@ export default function Bio() {
       <Text
         bgGradient="linear(to-l, #7928CA, #FF0080)"
         bgClip="text"
-        fontSize="2xl"
+        fontSize="3xl"
         fontWeight="extrabold"
+        marginBottom="10px"
       >
         {bio.header}
       </Text>
