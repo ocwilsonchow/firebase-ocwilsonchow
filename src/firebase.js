@@ -7,9 +7,8 @@ const firebaseApp = initializeApp({
   projectId: "ocwilsonchow-web",
   storageBucket: "ocwilsonchow-web.appspot.com",
   messagingSenderId: "26122753966",
-  appId: "1:26122753966:web:e19263b6fd54d48320da3f",
+  appId: "1:26122753966:web:e19263b6fd54d48320da3f"
 });
-
 export default firebaseApp;
 
 export const db = getFirestore();
